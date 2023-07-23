@@ -1,0 +1,120 @@
+
+
+
+
+body{
+    background-color: #0a092d;
+    color: aliceblue;
+}
+
+.contents-wrapper{
+    max-width: 67.5rem;
+    min-height: 32rem;
+    margin: auto auto 2.5rem;
+    padding: 0 1rem;
+}
+
+.sort{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    border-bottom: 1px solid #282e3e;
+    margin-left: 1rem;
+}
+
+.sort-text{
+    margin-left: 1rem;
+    font-size: .875rem;
+    color: #939bb4;
+}
+
+.sort-text:first-child{
+    margin-left: 0;
+}
+
+.checked{
+    color: #edeff4;
+
+}
+
+.sort-book{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.sort-button-box{
+    border: 1px solid white;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.button-box-one img{
+    height: 1rem;
+    width: 1rem;
+    filter: invert(100%);
+}
+
+.button-text{
+    margin-right: 1rem;
+}
+
+.button-box-one{
+    display: flex;
+}
+
+.all-content-wrapper{
+    display: flex;
+    max-width: 67.5rem;
+    flex-wrap: wrap;
+}
+
+.one-content{
+    display: flex;
+    padding: 1rem 1rem 0.5rem;
+    background-color: #2e3856;
+    min-height: 8rem;
+    width: 28%;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+
+.problem-img{
+    width: 7rem;
+}
+
+.problem-img img{
+    width: 100%;
+}
+
+.problem-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-wrap: normal;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.problem-info{
+    font-size: 0.75rem ;
+    margin-top: 1.5rem;
+    text-overflow: ellipsis;
+    margin-left: 1rem;
+}
+
+.problem-author{
+    margin-top: 1.5rem;
+}
+
+.problem-serial{
+    height: 1rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
